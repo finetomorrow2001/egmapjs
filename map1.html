@@ -18,6 +18,7 @@ window.onload = function() {
 	map.setZoom(16)
 	map.panTo([ 35.170862, 136.884734 ]) // nagoya 駅
 	map.addIcon(35.170862, 136.884734, "名古屋駅", "icon/building.png", 64) // nagoya 駅
+	map.on("click", (e) => ) alert(e.latlng) // 緯度経度
 }
 
 </script>
